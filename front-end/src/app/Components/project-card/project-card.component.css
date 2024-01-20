@@ -1,0 +1,16 @@
+mat-card {
+  background-color: var(--primary);
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+mat-card-content {
+  display: flex;
+}
+
+mat-card-title {
+  color: var(--white);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

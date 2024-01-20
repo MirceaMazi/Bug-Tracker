@@ -1,0 +1,41 @@
+.form-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../assets/Background-login.png");
+  background-size: contain;
+}
+
+.login-form {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.hint-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form .form-text {
+  color: var(--white);
+}
+
+#new-account {
+  margin: 1rem 0 0 0;
+  text-decoration: none;
+}
+
+mat-form-field {
+  margin: 0 0 1rem 0;
+}
+
+mat-hint {
+  color: var(--white);
+}

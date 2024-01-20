@@ -1,0 +1,33 @@
+mat-card {
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+mat-card-content {
+  display: flex;
+}
+
+mat-card-title {
+  color: var(--white);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.card-field {
+  margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  color: var(--white);
+}
+
+.bug-description {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  width: 15rem;
+  height: 10rem;
+}
